@@ -4,9 +4,6 @@ const express = require("express");
 // load moongose file only once
 require("./db/mongoose");
 
-//Task model to perform the operations.
-const Task = require("./models/task");
-
 // assigning the express function in app to use in route
 const app = express();
 
